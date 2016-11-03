@@ -5,14 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmihail <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/10/18 16:56:51 by mmihail           #+#    #+#             */
-/*   Updated: 2016/10/25 16:59:13 by mmihail          ###   ########.fr       */
+/*   Created: 2016/10/28 14:54:39 by mmihail           #+#    #+#             */
+/*   Updated: 2016/10/28 15:13:19 by mmihail          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <unistd.h>
-#include "get_next_line.h"
 
 static	char	*get_append(t_gnl *gnl)
 {

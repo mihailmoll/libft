@@ -5,13 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmihail <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/10/25 18:26:52 by mmihail           #+#    #+#             */
-/*   Updated: 2016/10/25 18:27:22 by mmihail          ###   ########.fr       */
+/*   Created: 2016/10/28 14:39:33 by mmihail           #+#    #+#             */
+/*   Updated: 2016/10/28 15:02:00 by mmihail          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include "get_next_line.h"
 
 static	void	strdel(void *str, size_t size)
 {

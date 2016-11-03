@@ -5,19 +5,18 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmihail <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/10/18 16:45:04 by mmihail           #+#    #+#             */
-/*   Updated: 2016/10/25 17:55:01 by mmihail          ###   ########.fr       */
+/*   Created: 2016/10/28 14:29:58 by mmihail           #+#    #+#             */
+/*   Updated: 2016/10/28 14:30:01 by mmihail          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 #include <stdlib.h>
 
 void	ft_memdel(void **ap)
 {
-	if (ap != NULL)
+	if (ap)
 	{
 		free(*ap);
-		*ap = NULL;
+		*ap = (NULL);
 	}
 }

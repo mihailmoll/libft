@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmihail <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/10/25 18:03:03 by mmihail           #+#    #+#             */
-/*   Updated: 2016/10/25 18:17:58 by mmihail          ###   ########.fr       */
+/*   Created: 2016/10/28 14:26:32 by mmihail           #+#    #+#             */
+/*   Updated: 2016/10/28 14:26:35 by mmihail          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_lerp(double first, double second, double p)
+int		ft_lerp(double first, double second, double p)
 {
 	return (first + (second - first) * p);
 }

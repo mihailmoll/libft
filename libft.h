@@ -5,21 +5,34 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmihail <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/10/18 16:57:03 by mmihail           #+#    #+#             */
-/*   Updated: 2016/10/25 16:25:51 by mmihail          ###   ########.fr       */
+/*   Created: 2016/10/28 14:39:47 by mmihail           #+#    #+#             */
+/*   Updated: 2016/10/28 19:15:26 by mmihail          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <string.h>
+# define GET_NEXT_LINE_H
+# define BUFF_SIZE 4096
+# include "libft.h"
 
+typedef struct	s_gnl
+{
+	char		*buf;
+	int			count;
+	int			i;
+	int			nl;
+	int			fd;
+}				t_gnl;
 typedef struct	s_list
 {
 	void			*content;
 	size_t			content_size;
 	struct s_list	*next;
 }				t_list;
+int				get_next_line(int const fd, char **line);
+int				ft_getlines(int fd, t_list **lst);
 int				ft_toupper(int c);
 int				ft_tolower(int c);
 int				ft_isdigit(int c);

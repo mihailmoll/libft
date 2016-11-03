@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mmihail <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/10/25 18:01:49 by mmihail           #+#    #+#             */
-/*   Updated: 2016/10/25 18:32:01 by mmihail          ###   ########.fr       */
+/*   Created: 2016/10/28 14:26:52 by mmihail           #+#    #+#             */
+/*   Updated: 2016/10/28 14:26:55 by mmihail          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_lerpi(int first, int second, double p)
+int		ft_lerpi(int first, int second, double p)
 {
 	if (first == second)
 		return (first);
